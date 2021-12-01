@@ -130,6 +130,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,7 +140,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Floor.cpp" />
     <ClCompile Include="JustPark.cpp" />
+    <ClCompile Include="ParkingLot.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="ParkingLot.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Truck.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
