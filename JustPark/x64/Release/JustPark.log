@@ -1,4 +1,11 @@
 ﻿  Car.cpp
-C:\Users\aseth\source\repos\JustPark\JustPark\Car.cpp(5,23): error C2228: left of '.CAR' must have class/struct/union
-C:\Users\aseth\source\repos\JustPark\JustPark\Car.cpp(5,23): message : type is 'VehichleType'
-C:\Users\aseth\source\repos\JustPark\JustPark\Car.cpp(5,9): error C2512: 'Vehicle::Vehicle': no appropriate default constructor available
+  DBObject.cpp
+  Gate.cpp
+  ParkingLot.cpp
+  Truck.cpp
+  Vehicle.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  JustPark.vcxproj -> C:\Users\aseth\source\repos\JustPark\x64\Release\JustPark.exe

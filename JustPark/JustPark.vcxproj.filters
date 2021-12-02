@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{ad4bfbde-e3d0-4f53-8440-fee7d380eec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Electronics">
+      <UniqueIdentifier>{4093df24-03f1-4e97-9518-b2f80a44b130}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="JustPark.cpp">
@@ -42,6 +48,39 @@
     <ClCompile Include="Truck.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attendent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoExitPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ticket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerInfoPortal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntrancePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Electronics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Compact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ParkingLot.h">
@@ -66,6 +105,48 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Truck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attendent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoExitPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ticket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HasDisplay.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IssuesTicket.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="PaymentEnabled.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerInfoPortal.h">
+      <Filter>Electronics</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayBoard.h">
+      <Filter>Electronics</Filter>
+    </ClInclude>
+    <ClInclude Include="EntrancePanel.h">
+      <Filter>Electronics</Filter>
+    </ClInclude>
+    <ClInclude Include="Electronics.h">
+      <Filter>Electronics</Filter>
+    </ClInclude>
+    <ClInclude Include="Spot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Compact.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
